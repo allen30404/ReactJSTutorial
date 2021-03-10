@@ -1,5 +1,5 @@
 {
-  "name": "ReactJSTutorial",
+  "name": "form",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,23 +7,19 @@
     "build": "webpack",
     "watch": "webpack -w"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/allen30404/ReactJSTutorial.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/allen30404/ReactJSTutorial/issues"
-  },
-  "homepage": "https://github.com/allen30404/ReactJSTutorial#readme",
   "dependencies": {
-    "@babel/core": "^7.13.8",
-    "@babel/preset-env": "^7.13.9",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
     "babel-loader": "^8.2.2",
-    "webpack": "^5.24.3",
+    "css-loader": "^5.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.4",
     "webpack-cli": "^4.5.0"
   }
 }

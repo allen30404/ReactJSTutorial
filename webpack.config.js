@@ -2,10 +2,13 @@ const path = require("path");
 
 //webpack設定
 module.exports = {
-    entry: './jsx/main.jsx',
+    //要被轉譯成js的jsx位置
+    entry: {
+        main : './src/jsx/main.jsx',
+    },
     output: {
-        path: path.resolve(__dirname, 'js'),
-        filename: 'main.js'
+        path: path.resolve(__dirname, './public/js'), //編譯後js的位置
+        filename: '[name].js'
     },
     mode: "development",
     module: {
